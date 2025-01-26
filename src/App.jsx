@@ -21,7 +21,7 @@ function Header() {
     <>
       <div className='header'>
         <div>
-          <a href=""><img src="public/images/logo.svg"/></a>
+          <a href=""><img src="./images/logo.svg"/></a>
         </div>
         <div className='option-area'>
         <select name="options" id="fontSelect">
@@ -31,7 +31,7 @@ function Header() {
           <option value="sevillana" data-font="Sevillana">Sevillana</option>
         </select>
           <input className='switch' type="checkbox"/>
-          <img src="public/images/darkmode-icon.svg"/>
+          <img src="./images/darkmode-icon.svg"/>
         </div>
       </div>
     </>
